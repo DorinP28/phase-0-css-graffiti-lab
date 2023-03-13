@@ -1,1 +1,35 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  div#wall #tag-2 {
+    display: none;
+  }
+  
+  #wall #tag-3.slick.slick {
+    display: none;
+  }
+  
+  div#wall .parent #tag-4 {
+    display: none;
+  }
+  
+  div#wall .parent #tag-5.slick.slick {
+    display: none;
+  }
+  
+  body div#wall div.parent div:last-child div#tag-6 {
+      display: none;
+  }
+  
+  body div#wall div.parent div > #tag-7.slick.slick {
+      display: none;
+  }
+
+  /*I like how it worked... But I still don't understand how it worked. 
+  The slick.slick in tags 3,5,7 was just a personal try without google. 
+  I still have no clue why and how it worked. 
+  for some tags adding div in the begining worked but not for all..
+  same thing with the last 2 tags for body ? */
+  
